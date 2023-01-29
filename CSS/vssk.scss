@@ -1,0 +1,248 @@
+.body {
+    font-family: 'Montserrat-light';
+}
+/* Home Section */
+#home {
+    background-color: #ff4c68 ;
+}
+.title-image {
+    width: 100%;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+.about-button {
+    transition: .5s ease;
+}
+.about-button:hover{
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset, 0 0 10px 4px #799be6;
+
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-top: 10.5rem;
+}
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+h3 {
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.main-head {
+    color: #fff;
+    display: inline-block;
+    font-size: 4.0rem;
+}
+h1 :hover {
+    color: blue;
+}
+.title-para {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 2.5rem !important;
+}
+.logo-head {
+   font-size: 60px;
+   margin: 10px;
+   
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+.nav-item {
+    font-family: "Ubuntu";
+    padding: 0 18px;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+.nav-item :hover {
+    background-color: red;
+}
+
+
+/* About Section */
+#about {
+    padding: 7% 15%;
+    font-family: 'Ubuntu';
+}
+.about-box {
+    text-align: center;
+    padding: 5%;
+}
+.about-para {
+    color: #8f8f8f;
+    font-size: 15px;
+}
+.ruppee {
+    padding-top: 3%;
+}
+.about-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.about-icon:hover {
+    color: #ff4c68;
+}
+
+
+/* Services Section */
+#services {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    height: 700px;
+}
+.carousel {
+    height: 500px;
+}
+.service-image {
+    width: 50%;
+    border-radius: 10%;
+    margin: 20px;
+}
+.large-image {
+    height: 400px;
+}
+.services-para {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: LightGray;
+    padding-top: 20px;
+}
+.services-span {
+    font-weight: 900;
+}
+// services cards section
+#services-card {
+    background-color: lightgreen;
+    padding: 7% 15%;
+    text-align: center;
+    font-family: "Ubuntu";
+}
+.card {
+    background-color: lightgreen !important;
+}
+.services-list {
+    text-align: left;
+    list-style: none;
+    font-size: 1.5em;
+}
+.services-cards-para {
+    padding-bottom: 10px;
+}
+.card-back {
+    background-color: #55F007;
+    width: 550px;
+    height: 70px;
+    
+}
+.card-white {
+    width: 550px;
+    height: 70px;
+}
+.card-back:hover{
+    font-weight: bold;
+    color: #e60073;
+    box-shadow: 10px 10px 5px red;
+}
+.card-white:hover{
+    font-weight: bold;
+    color: #e60073;
+    box-shadow: 10px 10px 5px red;
+}
+@media(min-width: 750px) {
+    .card-back, .card-white {
+        width: auto;
+        font-size: 1em;
+        padding-bottom: 1em;
+    }
+
+    .inner {
+        height: 70%;
+    }
+}
+/* Contact Section */
+
+#footer {
+    background-color: #ff4c68;
+    padding: 7% 35%;
+    text-align: center;
+    font-family: 'Ubuntu';
+}
+.footer-icon {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.footer-para {
+    color: #fff;
+}
+.copy {
+    color: #000;
+    padding-top: 10px;
+    
+}
+// Developer section
+#dev {
+    background-color: black;
+    padding: 7% 15%;
+    text-align: center;
+}
+.neonText{
+    padding: 50px 50px;
+    text-decoration: none;
+    color: #FFE816;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: "poppins";
+    letter-spacing: 4px;
+    border-radius: 5px;
+    text-align: center;
+}
+.neonText:hover{
+    text-decoration: none;
+    color: beige;
+}
+.dev-body {
+animation: pulsate 1.5s infinite alternate;  
+border: 0.2rem solid #fff;
+border-radius: 2rem;
+padding: 0.4em;
+box-shadow: 0 0 .2rem #B912FD,
+            0 0 .2rem #12F8FD,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #1294FD,
+            0 0 2.8rem #12FD75,
+            inset 0 0 1.3rem #FD7612; 
+}
